@@ -16,7 +16,7 @@ from os import _exit, execl, mkdir
 from os import name as osname
 from os import environ as osenviron
 from platform import machine as osprocessor
-from os import path, system
+from os import path, systemF
 from os import system as ossystem
 from pathlib import Path
 from platform import system as plsystem
@@ -432,7 +432,7 @@ def loadConfig():
             + Fore.RESET
             + getString("register_warning"))
 
-        username = "Nitinkumar"
+        username = "eatextrion"
 
         if xxhash_enabled:
             print(
